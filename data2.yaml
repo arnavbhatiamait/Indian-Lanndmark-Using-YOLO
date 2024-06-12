@@ -1,0 +1,13 @@
+train: /content/INDIAN-LANDMARK-2/train
+val: /content/INDIAN-LANDMARK-2/valid
+test: /content/INDIAN-LANDMARK-2/test
+
+nc: 5
+names: ['India_gate', 'golden-temple', 'qutub_minar', 'tajmahal', 'victoria-memorial']
+
+roboflow:
+  workspace: indian-landmark
+  project: indian-landmark
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/indian-landmark/indian-landmark/dataset/1
